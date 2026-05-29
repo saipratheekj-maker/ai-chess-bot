@@ -128,28 +128,3 @@ Higher levels increase:
 * AI intelligence
 * Search depth
 * Move prediction accuracy
-
-# 📸 Screenshots
-
-Add project screenshots here.
-
----
-
-# 📌 Resume Highlights
-
-* Developed a full-stack AI Chess Bot using Flask, JavaScript, and PyTorch.
-* Implemented Minimax Algorithm with Alpha-Beta Pruning for intelligent move generation.
-* Integrated PyTorch neural network for advanced board evaluation.
-* Designed an interactive click-to-move chess interface with multiple AI difficulty levels.
-
----
-
-# 👨‍💻 Author
-
-Sai Pratheek
-
----
-
-# 📜 License
-
-This project is for educational and portfolio purposes.
