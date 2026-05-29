@@ -1,0 +1,55 @@
+
+body {
+    background: #111827;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+#board {
+    width: 480px;
+    height: 480px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 8px solid #374151;
+    margin-top: 20px;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.light {
+    background: #f0d9b5;
+}
+
+.dark {
+    background: #b58863;
+}
+
+.selected {
+    outline: 4px solid yellow;
+}
+
+.top-controls {
+    margin-bottom: 15px;
+}
+
+button, select {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+}
